@@ -88,6 +88,7 @@ body {
   display: grid;
   gap: 20px;
   text-align: center;
+  color: #6a6868;
 }
 
 .features .heading {
@@ -96,4 +97,38 @@ body {
 
 .features .subheading {
   font-size: 11px;
+}
+
+/* Feature list container */
+.feature-list-container {
+  margin-top: 30px;
+  display: grid;
+  gap: 50px;
+}
+
+.feature-list-container .feature-item .feature-item-header {
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  margin: 0 45px;
+  border-radius: 5px 5px 0 0;
+}
+
+.feature-list-container .feature-item .made-for-marketers {
+  background-color: #ff9700;
+}
+
+.feature-list-container .feature-item .made-for-developers {
+  background-color: #6141e5;
+}
+
+.feature-list-container .feature-item .made-for-list {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+  font-size: 14px;
+  display: grid;
+  gap: 20px;
 }
