@@ -61,3 +61,55 @@
     margin: 0 65px;
   }
 }
+
+/* Min width 425px */
+@media screen and (min-width: 425px) {
+  /* Profile */
+  .profile .heading {
+    font-size: 27px;
+  }
+
+  .profile .subheading {
+    font-size: 15px;
+  }
+
+  /* MT table body */
+  .mt-table .mt-table-body {
+    font-size: 10px;
+  }
+
+  /* Material icons */
+  .mt-table .mt-table-body .material-icons {
+    font-size: 15px;
+  }
+
+  /* MT table footer */
+  .mt-table .mt-table-footer a {
+    font-size: 8px;
+  }
+
+  /* MT table description */
+  .mt-table .mt-table-description p {
+    font-size: 11px;
+  }
+
+  /* Form leads */
+  .form-leads .heading {
+    margin: 0 90px;
+  }
+
+  /* Form group */
+  .form-group .mt-button {
+    margin: 10px 85px 0 85px;
+  }
+
+  /* Features */
+  .features .heading {
+    font-size: 22px;
+  }
+
+  /* Feature list container */
+  .feature-list-container .feature-item .feature-item-header {
+    margin: 0 80px;
+  }
+}
