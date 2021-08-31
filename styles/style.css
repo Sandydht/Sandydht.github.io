@@ -114,21 +114,21 @@ body {
   justify-content: center;
 }
 
-/* Material icons */
-.mt-table .mt-table-body .material-icons {
-  font-size: 12px;
-}
-
-.professionl {
+.mt-table .mt-table-body .professional span {
   color: #525151;
 }
 
-.bussines {
+.mt-table .mt-table-body .bussines span {
   color: #4528bd;
 }
 
-.enterprise {
+.mt-table .mt-table-body .enterprise span {
   color: #f57c0e;
+}
+
+/* Material icons */
+.mt-table .mt-table-body .material-icons {
+  font-size: 12px;
 }
 
 /* Expand */
