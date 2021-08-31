@@ -1,0 +1,63 @@
+/** @format */
+
+/* Min width 375px */
+@media screen and (min-width: 375px) {
+  /* Profile */
+  .profile .heading {
+    font-size: 24px;
+  }
+
+  .profile .subheading {
+    font-size: 13px;
+  }
+
+  /* Marketing channel */
+  .marketing-channel .heading {
+    font-size: 22px;
+  }
+
+  /* MT table body */
+  .mt-table .mt-table-body {
+    font-size: 9px;
+  }
+
+  /* Material icons */
+  .mt-table .mt-table-body .material-icons {
+    font-size: 13px;
+  }
+
+  /* MT table footer */
+  .mt-table .mt-table-footer a {
+    font-size: 6px;
+  }
+
+  /* MT table description */
+  .mt-table .mt-table-description p {
+    font-size: 10px;
+  }
+
+  /* Form leads */
+  .form-leads .heading {
+    font-size: 22px;
+    margin: 0 70px;
+  }
+
+  /* Form group */
+  .form-group .mt-button {
+    margin: 10px 65px 0 65px;
+  }
+
+  /* Features */
+  .features .heading {
+    font-size: 20px;
+  }
+
+  .features .subheading {
+    font-size: 14px;
+  }
+
+  /* Feature list container */
+  .feature-list-container .feature-item .feature-item-header {
+    margin: 0 65px;
+  }
+}
