@@ -126,6 +126,11 @@ body {
   color: #f57c0e;
 }
 
+/* MT table heading */
+.mt-table .mt-table-body .mt-table-heading .mt-table-text {
+  margin-left: 10px;
+}
+
 /* Material icons */
 .mt-table .mt-table-body .material-icons {
   font-size: 12px;
