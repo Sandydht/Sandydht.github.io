@@ -136,6 +136,14 @@ body {
   font-size: 12px;
 }
 
+/* MT table footer */
+.mt-table .mt-table-footer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  font-size: 5px;
+}
+
 /* Expand */
 .expand {
   display: grid;
