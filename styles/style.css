@@ -12,3 +12,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.container {
+  display: grid;
+  gap: 50px;
+  padding: 20px;
+}
