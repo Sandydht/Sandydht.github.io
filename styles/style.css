@@ -155,6 +155,7 @@ body {
   color: white;
   margin: 0 5px;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .mt-table .mt-table-footer .professional {
@@ -167,6 +168,38 @@ body {
 
 .mt-table .mt-table-footer .enterprise {
   background-color: #f57c0e;
+}
+
+/* MT table description */
+.mt-table .mt-table-description {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10px 0 10px;
+}
+
+.mt-table .mt-table-description p {
+  display: flex;
+  font-size: 8px;
+  align-items: center;
+  gap: 5px;
+}
+
+.mt-table .mt-table-description .material-icons {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
+
+.mt-table .mt-table-description .professional {
+  color: #525151;
+}
+
+.mt-table .mt-table-description .bussines {
+  color: #4528bd;
+}
+
+.mt-table .mt-table-description .enterprise {
+  color: #f57c0e;
 }
 
 /* Expand */
