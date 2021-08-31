@@ -34,3 +34,15 @@ body {
 .profile p {
   font-size: 11px;
 }
+
+/* Form leads */
+.form-leads {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
+.form-leads h2 {
+  font-size: 20px;
+  margin: 0 50px;
+}
