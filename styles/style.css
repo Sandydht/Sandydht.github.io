@@ -114,15 +114,16 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-.feature-list-container .feature-item .made-for-marketers {
+.made-for-marketers {
   background-color: #ff9700;
 }
 
-.feature-list-container .feature-item .made-for-developers {
+.made-for-developers {
   background-color: #6141e5;
 }
 
-.feature-list-container .feature-item .made-for-list {
+/* Made for list */
+.made-for-list {
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -130,5 +131,48 @@ body {
   background-color: white;
   font-size: 14px;
   display: grid;
-  gap: 20px;
+  gap: 30px;
+}
+
+/* Made for item */
+.made-for-item .made-for-item-header {
+  display: flex;
+  justify-content: center;
+}
+
+.made-for-item .img-thumbnail {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.made-for-item .made-for-item-title {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.made-for-item .made-for-item-text {
+  margin-top: 10px;
+}
+
+.made-for-item .made-for-item-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: white;
+  color: #ff9700;
+  border: 1px solid #ff9700;
+  padding: 5px 20px;
+  font-size: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.made-for-item .made-for-item-link:hover {
+  background-color: #dbe4e4;
+  border: 1px solid #dbe4e4;
 }
