@@ -113,3 +113,41 @@
     margin: 0 80px;
   }
 }
+
+/* Min width 640px */
+@media screen and (min-width: 640px) {
+  /* Marketing channel */
+  .marketing-channel h2 {
+    display: none;
+  }
+
+  /* MT table header */
+  .mt-table .mt-table-header p {
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .mt-table .mt-table-header .heading {
+    text-align: left;
+  }
+
+  .mt-table .mt-table-header .heading::after {
+    content: "Marketing Channel";
+    color: #6a6868;
+  }
+
+  /* MT table body */
+  .mt-table .mt-table-body {
+    font-size: 12px;
+  }
+
+  /* MT table footer */
+  .mt-table .mt-table-footer a {
+    display: none;
+  }
+
+  /* MT table description */
+  .mt-table .mt-table-description {
+    display: none;
+  }
+}
