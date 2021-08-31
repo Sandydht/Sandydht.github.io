@@ -13,8 +13,24 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Container */
 .container {
   display: grid;
   gap: 50px;
   padding: 20px;
+}
+
+/* Profile section */
+.profile {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 20px;
+}
+
+.profile p {
+  font-size: 11px;
 }
