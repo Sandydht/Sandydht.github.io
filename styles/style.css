@@ -82,3 +82,18 @@ body {
 .form-leads .form-group button:hover {
   background-color: #ffa92c;
 }
+
+/* Features */
+.features {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
+.features .heading {
+  font-size: 17px;
+}
+
+.features .subheading {
+  font-size: 11px;
+}
