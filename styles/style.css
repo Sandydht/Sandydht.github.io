@@ -41,7 +41,7 @@ body {
 /* Marketing channel */
 .marketing-channel {
   display: grid;
-  gap: 20px;
+  gap: 30px;
 }
 
 .marketing-channel .heading {
@@ -56,6 +56,7 @@ body {
   flex-direction: column;
 }
 
+/* MT table header */
 .mt-table .mt-table-header {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
@@ -65,13 +66,35 @@ body {
   margin: 0 10px;
 }
 
+.mt-table .mt-table-header p {
+  padding: 5px;
+  margin: 0 5px;
+  color: white;
+  border-radius: 4px 4px 0 0;
+}
+
+.mt-table .mt-table-header .professional {
+  background-color: #525151;
+}
+
+.mt-table .mt-table-header .bussines {
+  background-color: #4528bd;
+}
+
+.mt-table .mt-table-header .enterprise {
+  background-color: #f57c0e;
+}
+
+/* MT table body */
 .mt-table .mt-table-body {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   font-size: 8px;
+  font-weight: 700;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 5px;
+  color: #616161;
 }
 
 .mt-table .mt-table-body p {
@@ -83,7 +106,7 @@ body {
 }
 
 .mt-table .mt-table-body .mt-table-data {
-  border-left: 1px solid black;
+  border-left: 1px solid #c1c1c1;
 }
 
 .mt-table .mt-table-body .mt-table-data p {
@@ -91,9 +114,28 @@ body {
   justify-content: center;
 }
 
+/* Material icons */
+.mt-table .mt-table-body .material-icons {
+  font-size: 12px;
+}
+
+.professionl {
+  color: #525151;
+}
+
+.bussines {
+  color: #4528bd;
+}
+
+.enterprise {
+  color: #f57c0e;
+}
+
+/* Expand */
 .expand {
   display: grid;
-  background-color: red;
+  background-color: #ff9700;
+  border: 1px solid #e28600;
   color: white;
   font-weight: 700;
   border-radius: 4px;
@@ -190,14 +232,6 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-.made-for-marketers {
-  background-color: #ff9700;
-}
-
-.made-for-developers {
-  background-color: #6141e5;
-}
-
 /* Made for list */
 .made-for-list {
   padding: 20px;
@@ -211,6 +245,14 @@ body {
 }
 
 /* Made for item */
+.made-for-marketers {
+  background-color: #ff9700;
+}
+
+.made-for-developers {
+  background-color: #6141e5;
+}
+
 .made-for-item .made-for-item-header {
   display: flex;
   justify-content: center;
