@@ -138,10 +138,35 @@ body {
 
 /* MT table footer */
 .mt-table .mt-table-footer {
-  margin-top: 10px;
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
+  margin: 10px 10px 0 10px;
+}
+
+.mt-table .mt-table-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+.mt-table .mt-table-footer .professional {
+  background-color: #525151;
+}
+
+.mt-table .mt-table-footer .bussines {
+  background-color: #4528bd;
+}
+
+.mt-table .mt-table-footer .enterprise {
+  background-color: #f57c0e;
 }
 
 /* Expand */
