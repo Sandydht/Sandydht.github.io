@@ -392,6 +392,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 250px;
 }
 
 .made-for-item-mobile-img {
@@ -417,7 +418,8 @@ body {
   color: #6a6868;
 }
 
-.made-for-item-mobile-link {
+.made-for-item-mobile-link,
+.made-for-item-desktop-link {
   text-decoration: none;
   font-size: 10px;
   padding: 10px;
@@ -431,7 +433,8 @@ body {
   cursor: pointer;
 }
 
-.made-for-item-mobile-link:hover {
+.made-for-item-mobile-link:hover,
+.made-for-item-desktop-link:hover {
   border: 1px solid #dbe4e4;
   background-color: #dbe4e4;
 }
