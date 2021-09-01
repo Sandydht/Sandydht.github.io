@@ -213,7 +213,7 @@
 
 /* Min width 768px */
 @media screen and (min-width: 768px) {
-  .container {
+  body {
     background-color: #f7f7f7;
   }
 
@@ -245,12 +245,19 @@
 
   .mt-table-header-desktop-title {
     color: #6a6868;
-    margin-left: 10px;
+  }
+
+  .mt-table-desktop-link {
+    display: none;
   }
 
   /* MT table header desktop Professional */
   .mt-table-desktop-heading-professional::after {
     content: "P";
+  }
+
+  .mt-table-desktop-subheading-professional {
+    display: none;
   }
 
   .mt-table-header-desktop-professional {
@@ -273,6 +280,10 @@
     content: "B";
   }
 
+  .mt-table-desktop-subheading-bussines {
+    display: none;
+  }
+
   .mt-table-header-desktop-bussines {
     background-image: linear-gradient(
         rgba(94, 63, 222, 0.9),
@@ -291,6 +302,10 @@
   /* MT table header desktop Enterprise */
   .mt-table-desktop-heading-enterprise::after {
     content: "E";
+  }
+
+  .mt-table-desktop-subheading-enterprise {
+    display: none;
   }
 
   .mt-table-header-desktop-enterprise {
@@ -374,5 +389,93 @@
     grid-template-columns: repeat(3, 1fr);
     margin-left: 70px;
     margin-right: 70px;
+  }
+}
+
+/* Min width 1024px */
+@media screen and (min-width: 1024px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profile-heading,
+  .profile-subheading {
+    width: 850px;
+  }
+
+  .mt-table-header-desktop-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* MT table header desktop professional */
+  .mt-table-desktop-heading-professional::after {
+    font-size: 16px;
+    content: "Professional";
+  }
+
+  .mt-table-desktop-subheading-professional {
+    display: block;
+  }
+
+  .mt-table-desktop-subheading-professional {
+    font-size: 8px;
+  }
+
+  /* MT table header desktop bussines */
+  .mt-table-desktop-heading-bussines::after {
+    font-size: 16px;
+    content: "Bussines";
+  }
+
+  .mt-table-desktop-subheading-bussines {
+    display: block;
+  }
+
+  .mt-table-desktop-subheading-bussines {
+    font-size: 8px;
+  }
+
+  /* MT table header desktop enterprise */
+  .mt-table-desktop-heading-enterprise::after {
+    font-size: 16px;
+    content: "Enterprise";
+  }
+
+  .mt-table-desktop-subheading-enterprise {
+    display: block;
+  }
+
+  .mt-table-desktop-subheading-enterprise {
+    font-size: 8px;
+  }
+
+  .mt-table-desktop-link {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(173, 173, 173, 0.7);
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    width: 100px;
+  }
+
+  /* MT table footer */
+  .mt-table-footer {
+    display: none;
+  }
+
+  /* MT table description */
+  .mt-table-description {
+    display: none;
   }
 }
