@@ -239,6 +239,7 @@ body {
   align-items: center;
   font-size: 10px;
   font-weight: 700;
+  color: #d1d1d1;
 }
 
 .mt-table-description-text .material-icons {
@@ -338,13 +339,32 @@ body {
   gap: 50px;
 }
 
+/* Features item header */
 .features-item-mobile-header {
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 5px 5px 0 0;
 }
 
+.features-item-mobile-header-marketers {
+  background-color: #ff9700;
+  color: white;
+}
+
+.features-item-mobile-header-developers {
+  background-color: #6141e5;
+  color: white;
+}
+
+.features-item-mobile-heading {
+  font-size: 14px;
+}
+
+/* Features item body mobile */
 .features-item-mobile-body {
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -353,21 +373,10 @@ body {
   gap: 20px;
 }
 
-/* Features list mobile marketers heading */
-.features-list-mobile-marketers-heading {
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  display: block;
-  background-color: #ff9700;
-}
-
-.features-list-mobile-developers-heading {
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  display: block;
-  background-color: #6141e5;
+/* Made for item mobile */
+.made-for-item-mobile {
+  display: grid;
+  gap: 10px;
 }
 
 .made-for-item-mobile-thumbnail {
@@ -377,7 +386,7 @@ body {
 }
 
 .made-for-item-mobile-img {
-  width: 200px;
+  width: 150px;
   height: auto;
   max-width: 200px;
   max-height: 200px;
@@ -406,12 +415,17 @@ body {
   padding: 10px;
   border: 1px solid #ff9700;
   color: #ff9700;
-  border-radius: 4px;
+  border-radius: 5px;
   width: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.made-for-item-mobile-link:hover {
+  border: 1px solid #dbe4e4;
+  background-color: #dbe4e4;
 }
 
 /* Features list desktop version */
