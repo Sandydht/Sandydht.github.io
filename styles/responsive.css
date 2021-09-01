@@ -423,6 +423,7 @@
 
   .mt-table-desktop-subheading-professional {
     font-size: 8px;
+    text-align: center;
   }
 
   /* MT table header desktop bussines */
@@ -437,6 +438,7 @@
 
   .mt-table-desktop-subheading-bussines {
     font-size: 8px;
+    text-align: center;
   }
 
   /* MT table header desktop enterprise */
@@ -451,6 +453,7 @@
 
   .mt-table-desktop-subheading-enterprise {
     font-size: 8px;
+    text-align: center;
   }
 
   .mt-table-desktop-link {
@@ -477,5 +480,22 @@
   /* MT table description */
   .mt-table-description {
     display: none;
+  }
+
+  /* Form leads */
+  .form-leads-heading {
+    font-size: 40px;
+  }
+
+  /* Form group */
+  .form-leads-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .form-leads-submit-button {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 350px;
+    margin-right: 350px;
   }
 }
