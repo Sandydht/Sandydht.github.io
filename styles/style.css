@@ -15,226 +15,242 @@ body {
 
 /* Container */
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 50px;
-  padding: 50px 20px;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
 }
 
 /* Profile */
 .profile {
   display: grid;
   gap: 20px;
+}
+
+.profile-heading {
+  font-size: 20px;
+  color: #ff9700;
   text-align: center;
 }
 
-.profile .heading {
-  font-size: 20px;
-  color: #ff9700;
-}
-
-.profile .subheading {
+.profile-subheading {
   font-size: 11px;
   color: #4a4a4a;
+  text-align: center;
 }
 
 /* Marketing channel */
 .marketing-channel {
   display: grid;
   gap: 30px;
-  width: 100%;
-  max-width: 1000px;
 }
 
-.marketing-channel .heading {
-  text-align: center;
+/* Marketing channel header */
+.marketing-channel-title {
   font-size: 20px;
   color: #6a6868;
+  text-align: center;
 }
 
 /* MT table */
 .mt-table {
-  display: flex;
-  flex-direction: column;
-}
-
-/* MT table header */
-.mt-table .mt-table-header {
   display: grid;
-  grid-template-columns: 2fr repeat(3, 1fr);
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0 10px;
-  text-align: center;
 }
 
-.mt-table .mt-table-header div {
-  padding: 5px;
-  margin: 0 5px;
-  color: white;
-  border-radius: 4px 4px 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.mt-table .mt-table-header .mt-table-heading-text {
+/* MT table header desktop version */
+.mt-table-header-desktop {
   display: none;
 }
 
-.mt-table .mt-table-header .professional {
-  background-color: #525151;
+/* MT table header mobile version */
+.mt-table-header-mobile {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.mt-table .mt-table-header .bussines {
-  background-color: #4528bd;
+.mt-table-header-mobile-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.mt-table .mt-table-header .enterprise {
-  background-color: #f57c0e;
+.mt-table-header-mobile-professional {
+  background-color: #4d4d4c;
+  color: white;
+}
+
+.mt-table-header-mobile-bussines {
+  background-color: #4427bb;
+  color: white;
+}
+
+.mt-table-header-mobile-enterprise {
+  background-color: #ef780f;
+  color: white;
 }
 
 /* MT table body */
-.mt-table .mt-table-body {
+.mt-table-body {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
-  font-size: 8px;
-  font-weight: 700;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 5px;
-  color: #616161;
   max-height: 500px;
-  width: 100%;
   overflow-y: auto;
 }
 
-.mt-table .mt-table-body p {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  max-height: 50px;
-  padding: 0 5px;
-}
-
-.mt-table .mt-table-body .mt-table-data {
-  border-left: 1px solid #c1c1c1;
-}
-
-.mt-table .mt-table-body .mt-table-data p {
-  display: flex;
-  justify-content: center;
-}
-
-.mt-table .mt-table-body .professional span {
-  color: #525151;
-}
-
-.mt-table .mt-table-body .bussines span {
-  color: #4528bd;
-}
-
-.mt-table .mt-table-body .enterprise span {
-  color: #f57c0e;
-}
-
-/* MT table heading */
-.mt-table .mt-table-body .mt-table-heading .mt-table-text {
-  margin-left: 10px;
-}
-
-/* Material icons */
-.mt-table .mt-table-body .material-icons {
-  font-size: 12px;
-}
-
-/* MT table footer */
-.mt-table .mt-table-footer {
-  display: grid;
-  grid-template-columns: 2fr repeat(3, 1fr);
-  margin: 10px 10px 0 10px;
-}
-
-.mt-table .mt-table-footer a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5px;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  padding: 5px;
-  color: white;
-  margin: 0 5px;
-  border-radius: 3px;
-  cursor: pointer;
+.mt-table-data-col {
+  font-size: 8px;
   font-weight: 700;
 }
 
-.mt-table .mt-table-footer .professional {
-  background-color: #525151;
-}
-
-.mt-table .mt-table-footer .bussines {
-  background-color: #4528bd;
-}
-
-.mt-table .mt-table-footer .enterprise {
-  background-color: #f57c0e;
-}
-
-/* MT table description */
-.mt-table .mt-table-description {
+/* MT table expand mobile version */
+.mt-table-mobile-expand {
+  cursor: pointer;
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px 10px 0 10px;
-}
-
-.mt-table .mt-table-description p {
-  display: flex;
-  font-size: 8px;
-  align-items: center;
-  gap: 5px;
-}
-
-.mt-table .mt-table-description .material-icons {
-  display: flex;
-  font-size: 10px;
   align-items: center;
 }
 
-.mt-table .mt-table-description .professional {
-  color: #525151;
-}
-
-.mt-table .mt-table-description .bussines {
-  color: #4528bd;
-}
-
-.mt-table .mt-table-description .enterprise {
-  color: #f57c0e;
-}
-
-/* Expand */
-.expand {
+.mt-table-mobile-expand-text {
   display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
   background-color: #ff9700;
   border: 1px solid #e28600;
   color: white;
-  font-weight: 700;
-  border-radius: 4px;
   padding: 5px 10px;
   width: 100%;
-  cursor: pointer;
-  align-items: center;
-  grid-template-columns: 1fr auto;
-  gap: 10px;
+  border-radius: 5px;
 }
 
-.expand .material-icons {
+.mt-table-mobile-expand .material-icons {
+  font-size: 10px;
+}
+
+/* MT table expand desktop version */
+.mt-table-desktop-expand {
+  display: none;
+}
+
+.mt-table-panel-expand {
+  margin-left: 10px;
+}
+
+.mt-table-data-header-text {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.mt-table-data-body-text {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: center;
+  border-left: 1px solid #c1c1c1;
+}
+
+.mt-table-data-body .material-icons {
   font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt-table-data-body-professionl {
+  color: #4d4d4c;
+}
+
+.mt-table-data-body-bussines {
+  color: #4427bb;
+}
+
+.mt-table-data-body-enterprise {
+  color: #ef780f;
+}
+
+/* MT table footer */
+.mt-table-footer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mt-table-footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mt-table-link {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.mt-table-link-professional {
+  background-color: #4d4d4c;
+  color: white;
+}
+
+.mt-table-link-bussines {
+  background-color: #4427bb;
+  color: white;
+}
+
+.mt-table-link-enterprise {
+  background-color: #ef780f;
+  color: white;
+}
+
+/* MT table description */
+.mt-table-description {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mt-table-description-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.mt-table-description-text .material-icons {
+  font-size: 12px;
+}
+
+.mt-table-description-professional {
+  color: #4d4d4c;
+}
+
+.mt-table-description-bussines {
+  color: #4427bb;
+}
+
+.mt-table-description-enterprise {
+  color: #ef780f;
 }
 
 /* Form leads */

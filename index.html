@@ -8,7 +8,7 @@
   <title>MTARGET Pricing</title>
 
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/responsive.css">
+  <!-- <link rel="stylesheet" href="styles/responsive.css"> -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -17,8 +17,9 @@
   <main class="container">
     <!-- Profile section -->
     <section id="profile" class="profile">
-      <h1 class="heading">MTARGET Is More Than Just A Software</h1>
-      <p class="subheading">"Whether you wanted to start small or jump right in with the latest technology of integrated
+      <h1 class="profile-heading">MTARGET Is More Than Just A Software</h1>
+      <p class="profile-subheading">"Whether you wanted to start small or jump right in with the latest technology of
+        integrated
         cross-channel
         personalized marketing. We will help you to tailor the software & strategies to bring the highest ROI for your
         campaign."</p>
@@ -26,264 +27,359 @@
 
     <!-- Marketing channel section -->
     <section id="marketingChannel" class="marketing-channel">
-      <h2 class="heading">Marketing Channel</h2>
 
-      <div class="marketing-channel-content">
+      <!-- Marketing channel header -->
+      <div class="marketing-channel-header">
+        <h2 class="marketing-channel-title">Marketing Channel</h2>
+      </div>
+
+      <!-- Marketing channel body -->
+      <div class="marketing-channel-body">
 
         <!-- MT table -->
         <div class="mt-table">
+
+          <!-- MT table header -->
           <div class="mt-table-header">
-            <div class="heading">
-              <div class="mt-table-heading-text">
-                <p>
-                  Marketing
-                  <br>
-                  Channel
-                </p>
+
+            <!-- Mobile version -->
+            <div class="mt-table-header-mobile">
+              <div class="mt-table-header-mobile-text mt-table-header-mobile-title"></div>
+              <div class="mt-table-header-mobile-text mt-table-header-mobile-professional">
+                <p>P</p>
+              </div>
+              <div class="mt-table-header-mobile-text mt-table-header-mobile-bussines">
+                <p>B</p>
+              </div>
+              <div class="mt-table-header-mobile-text mt-table-header-mobile-enterprise">
+                <p>E</p>
               </div>
             </div>
-            <div class="professional">
-              <p>P</p>
-              <div class="mt-table-heading-text">
-                <p>Hello</p>
-              </div>
-            </div>
-            <div class="bussines">
-              <p>B</p>
-              <div class="mt-table-heading-text">
-                <p>Hello</p>
-              </div>
-            </div>
-            <div class="enterprise">
-              <p>E</p>
-              <div class="mt-table-heading-text">
-                <p>Hello</p>
-              </div>
+
+            <!-- Desktop version -->
+            <div class="mt-table-header-desktop">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
             </div>
           </div>
 
+          <!-- MT table body -->
           <div class="mt-table-body">
 
             <!-- Email -->
-            <div class="mt-table-heading">
-              <p>
-                <span class="expand">Email <span class="material-icons">expand_more</span></span>
-              </p>
-              <div id="panel" class="mt-table-text">
-                <p>Contact Book</p>
-                <p>Personalization Code</p>
-                <p>Drag & Drop Composer</p>
-                <p>Email Automation</p>
-                <p>Email Scheduler</p>
-                <p>Campaign A/B Test</p>
-                <p>Customer Insight</p>
-                <p>Campaign Analytics</p>
-                <p>AI Conversational Email</p>
+            <div class="mt-table-data-col">
+              <div class="mt-table-data-header-text mt-table-mobile-expand">
+                <p class=" mt-table-mobile-expand-text">Email <span class="material-icons">expand_more</span></p>
+              </div>
+
+              <div class="mt-table-desktop-expand">
+                <span class="material-icons">expand_more</span>
+                <p class="mt-table-data-header-text mt-table-desktop-expand">Email</p>
+              </div>
+
+              <div class="mt-table-panel-expand">
+                <p class="mt-table-data-header-text">Contact Book</p>
+                <p class="mt-table-data-header-text">Personalization Code</p>
+                <p class="mt-table-data-header-text">Customer Insight</p>
+                <p class="mt-table-data-header-text">Drag & Drop Composer</p>
+                <p class="mt-table-data-header-text">Email Automation</p>
+                <p class="mt-table-data-header-text">Email Scheduler</p>
+                <p class="mt-table-data-header-text">Campaign A/B Test</p>
+                <p class="mt-table-data-header-text">Campaign Analytics</p>
+                <p class="mt-table-data-header-text">AI Conversational Email</p>
               </div>
             </div>
-            <div class="mt-table-data professional">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span>Unlimited</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body
+            mt-table-data-body-professionl">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <p class="mt-table-data-body-text">Unlimited</p>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data bussines">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span>Unlimited</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-bussines">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <p class="mt-table-data-body-text">Unlimited</p>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data enterprise">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span>Unlimited</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-enterprise">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <p class="mt-table-data-body-text">Unlimited</p>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
 
-            <!-- Web push notification -->
-            <div class="mt-table-heading">
-              <p>
-                <span class="expand">Web Push Notification <span class="material-icons">expand_more</span></span>
-              </p>
-              <div id="panel" class="mt-table-text">
-                <p>Opt-in generator</p>
-                <p>Bulk Web Push</p>
-                <p>Campaign Analytics</p>
-                <p>Targeted Web Push (Behavior)</p>
+            <!-- Web Push Notification -->
+            <div class="mt-table-data-col">
+              <div class="mt-table-data-header-text mt-table-mobile-expand">
+                <p class=" mt-table-mobile-expand-text">Web Push Notification <span
+                    class="material-icons">expand_more</span></p>
+              </div>
+
+              <div class="mt-table-desktop-expand">
+                <span class="material-icons">expand_more</span>
+                <p class="mt-table-data-header-text mt-table-desktop-expand">Web Push Notification</p>
+              </div>
+
+              <div class="mt-table-panel-expand">
+                <p class="mt-table-data-header-text">Opt-in generator</p>
+                <p class="mt-table-data-header-text">Bulk Web Push</p>
+                <p class="mt-table-data-header-text">Campaign Analytics</p>
+                <p class="mt-table-data-header-text">Targeted Web Push (Behavior)</p>
               </div>
             </div>
-            <div class="mt-table-data professional">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-professionl">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data bussines">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-bussines">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data enterprise">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-enterprise">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
 
-            <!-- App push notification -->
-            <div class="mt-table-heading">
-              <p>
-                <span class="expand">App Push Notification <span class="material-icons">expand_more</span></span>
-              </p>
-              <div id="panel" class="mt-table-text">
-                <p>Opt-in generator</p>
-                <p>Targeted App Push (Behavior)</p>
-                <p>Bulk App Push</p>
+            <!-- App Push Notification -->
+            <div class="mt-table-data-col">
+              <div class="mt-table-data-header-text mt-table-mobile-expand">
+                <p class=" mt-table-mobile-expand-text">App Push Notification <span
+                    class="material-icons">expand_more</span></p>
+              </div>
+
+              <div class="mt-table-desktop-expand">
+                <span class="material-icons">expand_more</span>
+                <p class="mt-table-data-header-text mt-table-desktop-expand">App Push Notification</p>
+              </div>
+
+              <div class="mt-table-panel-expand">
+                <p class="mt-table-data-header-text">Opt-in generator</p>
+                <p class="mt-table-data-header-text">Targeted App Push (Behavior)</p>
+                <p class="mt-table-data-header-text">Bulk App Push</p>
               </div>
             </div>
-            <div class="mt-table-data professional">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-professionl">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data bussines">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-bussines">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data enterprise">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-enterprise">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
 
-            <!-- Dynamic banner -->
-            <div class="mt-table-heading">
-              <p>
-                <span class="expand">Dynamic Banner <span class="material-icons">expand_more</span></span>
-              </p>
-              <div id="panel" class="mt-table-text">
-                <p>Static Banner</p>
-                <p>Audience Persona Generator</p>
-                <p>Dynamic Banner (Behavior)</p>
+            <!-- Dynamic Banner -->
+            <div class="mt-table-data-col">
+              <div class="mt-table-data-header-text mt-table-mobile-expand">
+                <p class=" mt-table-mobile-expand-text">Dynamic Banner <span class="material-icons">expand_more</span>
+                </p>
+              </div>
+
+              <div class="mt-table-desktop-expand">
+                <span class="material-icons">expand_more</span>
+                <p class="mt-table-data-header-text mt-table-desktop-expand">Dynamic Banner</p>
+              </div>
+
+              <div class="mt-table-panel-expand">
+                <p class="mt-table-data-header-text">Static Banner</p>
+                <p class="mt-table-data-header-text">Audience Persona Generator</p>
+                <p class="mt-table-data-header-text">Dynamic Banner (Behavior)</p>
               </div>
             </div>
-            <div class="mt-table-data professional">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-professionl">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data bussines">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-bussines">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data enterprise">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-enterprise">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
 
             <!-- WhatsApp -->
-            <div class="mt-table-heading">
-              <p>
-                <span class="expand">WhatsApp <span class="material-icons">expand_more</span></span>
-              </p>
-              <div id="panel" class="mt-table-text">
-                <p>Template Message</p>
-                <p>Session Message</p>
-                <p>WABA Dashboard</p>
+            <div class="mt-table-data-col">
+              <div class="mt-table-data-header-text mt-table-mobile-expand">
+                <p class=" mt-table-mobile-expand-text">WhatsApp <span class="material-icons">expand_more</span></p>
+              </div>
+
+              <div class="mt-table-desktop-expand">
+                <span class="material-icons">expand_more</span>
+                <p class="mt-table-data-header-text mt-table-desktop-expand">WhatsApp</p>
+              </div>
+
+              <div class="mt-table-panel-expand">
+                <p class="mt-table-data-header-text">Template Message</p>
+                <p class="mt-table-data-header-text">Session Message</p>
+                <p class="mt-table-data-header-text">WABA Dashboard</p>
               </div>
             </div>
-            <div class="mt-table-data professional">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-professionl">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data bussines">
-              <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
-                <p><span class="material-icons" style="color: #eaeaea;">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-bussines">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
-            <div class="mt-table-data enterprise">
-              <p><span class="material-icons">check</span></p>
-              <div id="panel">
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
-                <p><span class="material-icons">check</span></p>
+            <div class="mt-table-data-col mt-table-data-body mt-table-data-body-enterprise">
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+              </div>
+
+              <div>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
+                <span class="material-icons mt-table-data-body-text">check</span>
               </div>
             </div>
           </div>
 
+          <!-- MT table footer -->
           <div class="mt-table-footer">
-            <p></p>
-            <a href="#formLeads" class="professional">Get Started</a>
-            <a href="#formLeads" class="bussines">Talk with Us</a>
-            <a href="#formLeads" class="enterprise">Request Demo</a>
+            <div class="mt-table-footer-text">
+              <a class="mt-table-link mt-table-link-professional" href="#formLeads">Get Started</a>
+            </div>
+            <div class="mt-table-footer-text">
+              <a class="mt-table-link mt-table-link-bussines" href="#formLeads">Talk with Us</a>
+            </div>
+            <div class="mt-table-footer-text">
+              <a class="mt-table-link mt-table-link-enterprise" href="#formLeads">Request Demo</a>
+            </div>
           </div>
 
+          <!-- MT table description -->
           <div class="mt-table-description">
-            <p><span class="material-icons professional">circle</span> Professional</p>
-            <p><span class="material-icons bussines">circle</span> Bussines</p>
-            <p><span class="material-icons enterprise">circle</span> Enterprise</p>
+            <div class="mt-table-description-text">
+              <p><span class="material-icons mt-table-description-professional">circle</span> Professional</p>
+            </div>
+            <div class="mt-table-description-text">
+              <p><span class="material-icons mt-table-description-bussines">circle</span> Bussines</p>
+            </div>
+            <div class="mt-table-description-text">
+              <p><span class="material-icons mt-table-description-enterprise">circle</span> Enterprise</p>
+            </div>
           </div>
         </div>
       </div>
