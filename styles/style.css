@@ -159,6 +159,10 @@ body {
   border-left: 1px solid #c1c1c1;
 }
 
+.mt-table-data-body-text-disable {
+  color: #eaeaea;
+}
+
 .mt-table-data-body .material-icons {
   font-size: 12px;
   font-weight: 700;
