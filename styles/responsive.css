@@ -1,1 +1,52 @@
 /** @format */
+@media screen and (min-width: 375px) {
+  /* Profile */
+  .profile-heading {
+    font-size: 24px;
+  }
+
+  .profile-subheading {
+    font-size: 12px;
+  }
+
+  /* Marketing channel header */
+  .marketing-channel-title {
+    font-size: 22px;
+  }
+
+  /* MT table body */
+  .mt-table-data-col {
+    font-size: 10px;
+  }
+
+  .mt-table-data-header-text {
+    height: 45px;
+  }
+
+  .mt-table-data-body-text {
+    height: 45px;
+  }
+
+  /* Form leads */
+  .form-leads-heading {
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  /* Form group */
+  .form-leads-submit-button {
+    margin: 10px 60px 0 60px;
+  }
+
+  /* Features */
+  .features-heading {
+    font-size: 19px;
+  }
+
+  /* Features item header */
+  .features-item-mobile-header {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}

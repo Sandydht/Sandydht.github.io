@@ -267,7 +267,8 @@ body {
 
 .form-leads-heading {
   font-size: 20px;
-  margin: 0 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: #6a6868;
 }
 
@@ -331,6 +332,7 @@ body {
   font-size: 8px;
   margin-left: 40px;
   margin-right: 40px;
+  font-weight: 700;
 }
 
 /* Features list mobile version */
@@ -383,13 +385,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .made-for-item-mobile-img {
-  width: 150px;
+  width: 200px;
   height: auto;
   max-width: 200px;
-  max-height: 200px;
   object-fit: cover;
   object-position: center;
 }
