@@ -310,93 +310,111 @@ body {
 /* Features */
 .features {
   display: grid;
-  gap: 20px;
-  text-align: center;
-  color: #6a6868;
+  gap: 50px;
 }
 
-.features .heading {
+.features-header {
+  display: grid;
+  gap: 20px;
+}
+
+.features-heading {
+  text-align: center;
+  color: #6a6868;
   font-size: 17px;
 }
 
-.features .subheading {
-  font-size: 11px;
+.features-subheading {
+  text-align: center;
+  color: #6a6868;
+  font-size: 8px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-/* Feature list container */
-.feature-list-container {
-  margin-top: 30px;
+/* Features list mobile version */
+.features-list-mobile {
   display: grid;
   gap: 50px;
 }
 
-.feature-list-container .feature-item .feature-item-header {
-  font-size: 14px;
-  color: white;
+.features-item-mobile-header {
   padding: 10px;
-  margin: 0 45px;
+  margin-left: 40px;
+  margin-right: 40px;
   border-radius: 5px 5px 0 0;
 }
 
-/* Made for list */
-.made-for-list {
+.features-item-mobile-body {
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  text-align: left;
-  background-color: white;
-  font-size: 14px;
   display: grid;
-  gap: 30px;
+  gap: 20px;
 }
 
-/* Made for item */
-.made-for-marketers {
+/* Features list mobile marketers heading */
+.features-list-mobile-marketers-heading {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  display: block;
   background-color: #ff9700;
 }
 
-.made-for-developers {
+.features-list-mobile-developers-heading {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  display: block;
   background-color: #6141e5;
 }
 
-.made-for-item .made-for-item-header {
+.made-for-item-mobile-thumbnail {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.made-for-item .img-thumbnail {
-  max-width: 200px;
-  width: 100%;
+.made-for-item-mobile-img {
+  width: 200px;
   height: auto;
+  max-width: 200px;
+  max-height: 200px;
   object-fit: cover;
   object-position: center;
 }
 
-.made-for-item .made-for-item-title {
-  margin-top: 10px;
-  font-weight: 700;
+.made-for-item-mobile-body {
+  display: grid;
+  gap: 10px;
 }
 
-.made-for-item .made-for-item-text {
-  margin-top: 10px;
+.made-for-item-mobile-title {
+  font-size: 14px;
+  color: #6a6868;
 }
 
-.made-for-item .made-for-item-link {
-  display: inline-block;
-  margin-top: 10px;
+.made-for-item-mobile-text {
+  font-size: 14px;
+  color: #6a6868;
+}
+
+.made-for-item-mobile-link {
   text-decoration: none;
-  background-color: white;
-  color: #ff9700;
-  border: 1px solid #ff9700;
-  padding: 5px 20px;
   font-size: 10px;
-  width: 120px;
-  text-align: center;
-  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ff9700;
+  color: #ff9700;
   border-radius: 4px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.made-for-item .made-for-item-link:hover {
-  background-color: #dbe4e4;
-  border: 1px solid #dbe4e4;
+/* Features list desktop version */
+.features-list-desktop {
+  display: none;
 }
