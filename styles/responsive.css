@@ -116,24 +116,46 @@
 
 /* Min width 640px */
 @media screen and (min-width: 640px) {
-  /* Marketing channel */
-  .marketing-channel h2 {
-    display: none;
-  }
-
   /* MT table header */
-  .mt-table .mt-table-header p {
-    padding: 10px;
-    border-radius: 5px 5px 0 0;
+  .mt-table .mt-table-header {
+    height: 60px;
+    font-size: 16px;
   }
 
-  .mt-table .mt-table-header .heading {
-    text-align: left;
+  .mt-table .mt-table-header .professional {
+    background-color: transparent;
+    background-image: linear-gradient(
+        rgba(82, 81, 81, 0.8),
+        rgba(82, 81, 81, 0.8)
+      ),
+      url("/images/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
-  .mt-table .mt-table-header .heading::after {
-    content: "Marketing Channel";
-    color: #6a6868;
+  .mt-table .mt-table-header .bussines {
+    background-color: transparent;
+    background-image: linear-gradient(
+        rgba(69, 40, 189, 0.8),
+        rgba(69, 40, 189, 0.8)
+      ),
+      url("/images/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mt-table .mt-table-header .enterprise {
+    background-color: transparent;
+    background-image: linear-gradient(
+        rgba(245, 124, 14, 0.8),
+        rgba(245, 124, 14, 0.8)
+      ),
+      url("/images/banner-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   /* MT table body */
@@ -141,13 +163,31 @@
     font-size: 12px;
   }
 
+  /* Material icons */
+  .mt-table .mt-table-body .material-icons {
+    font-size: 14px;
+  }
+
   /* MT table footer */
+  .mt-table .mt-table-footer {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    margin: 20px 10px 0 10px;
+  }
+
   .mt-table .mt-table-footer a {
-    display: none;
+    font-size: 10px;
+    padding: 10px;
   }
 
   /* MT table description */
   .mt-table .mt-table-description {
-    display: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px 0 10px;
+  }
+
+  .mt-table .mt-table-description p {
+    font-size: 12px;
   }
 }
