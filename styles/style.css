@@ -380,6 +380,7 @@ body {
   border-radius: 5px;
   display: grid;
   gap: 20px;
+  background-color: white;
 }
 
 /* Made for item mobile */
@@ -392,7 +393,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
 }
 
 .made-for-item-mobile-img {
@@ -431,6 +431,7 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .made-for-item-mobile-link:hover,

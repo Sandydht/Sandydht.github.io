@@ -617,10 +617,12 @@
     width: 1024px;
   }
 
-  .made-for-item-desktop-title,
+  .made-for-item-desktop-title {
+    font-size: 20px;
+  }
+
   .made-for-item-desktop-text {
     font-size: 14px;
-    color: #6a6868;
   }
 
   .made-for-item-desktop-link {
