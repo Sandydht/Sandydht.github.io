@@ -324,8 +324,8 @@ body {
   display: inline-block;
 }
 
-.form-submit-button:hover {
-  background-color: #ffa92c;
+.form-leads-submit-button:hover {
+  opacity: 0.8;
 }
 
 /* Features */

@@ -472,6 +472,10 @@
     width: 100px;
   }
 
+  .mt-table-desktop-link:hover {
+    opacity: 0.8;
+  }
+
   /* MT table footer */
   .mt-table-footer {
     display: none;
