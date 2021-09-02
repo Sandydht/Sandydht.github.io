@@ -134,6 +134,18 @@ body {
   border-radius: 5px;
 }
 
+.mt-table-panel-expand-0,
+.mt-table-panel-expand-2,
+.mt-table-panel-expand-4,
+.mt-table-panel-expand-6,
+.mt-table-panel-expand-8 {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
 .mt-table-mobile-expand .material-icons {
   font-size: 10px;
 }
